@@ -1,0 +1,20 @@
+{
+  "name": "yazhgo-telegram",
+  "version": "1.0.0",
+  "description": "YazhGo — taxi booking website with automatic Telegram notifications via the Telegram Bot API",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["taxi", "booking", "express", "telegram", "college-project"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
